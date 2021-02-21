@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		158B33C925E31F120069A78A /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 158B33C825E31F120069A78A /* Storyboard.storyboard */; };
 		BA3753EB25DE082A001BAD7D /* InnovationChallengeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA3753EA25DE082A001BAD7D /* InnovationChallengeApp.swift */; };
 		BA3753ED25DE082A001BAD7D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA3753EC25DE082A001BAD7D /* ContentView.swift */; };
 		BA3753EF25DE082E001BAD7D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA3753EE25DE082E001BAD7D /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		158B33C825E31F120069A78A /* Storyboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
 		BA3753E725DE082A001BAD7D /* InnovationChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InnovationChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA3753EA25DE082A001BAD7D /* InnovationChallengeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InnovationChallengeApp.swift; sourceTree = "<group>"; };
 		BA3753EC25DE082A001BAD7D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -54,6 +56,7 @@
 			children = (
 				BA3753EA25DE082A001BAD7D /* InnovationChallengeApp.swift */,
 				BA3753EC25DE082A001BAD7D /* ContentView.swift */,
+				158B33C825E31F120069A78A /* Storyboard.storyboard */,
 				BA3753EE25DE082E001BAD7D /* Assets.xcassets */,
 				BA3753F325DE082E001BAD7D /* Info.plist */,
 				BA3753F025DE082E001BAD7D /* Preview Content */,
@@ -128,6 +131,7 @@
 			files = (
 				BA3753F225DE082E001BAD7D /* Preview Assets.xcassets in Resources */,
 				BA3753EF25DE082E001BAD7D /* Assets.xcassets in Resources */,
+				158B33C925E31F120069A78A /* Storyboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
