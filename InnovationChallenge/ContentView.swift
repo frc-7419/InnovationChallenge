@@ -20,8 +20,6 @@ struct ContentView_Previews: PreviewProvider {
     }
 }
 
-struct Button<Label> where Label :View {
 
-}
 
 

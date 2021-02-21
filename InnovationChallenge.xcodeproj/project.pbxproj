@@ -11,7 +11,7 @@
 		BA3753ED25DE082A001BAD7D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA3753EC25DE082A001BAD7D /* ContentView.swift */; };
 		BA3753EF25DE082E001BAD7D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA3753EE25DE082E001BAD7D /* Assets.xcassets */; };
 		BA3753F225DE082E001BAD7D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA3753F125DE082E001BAD7D /* Preview Assets.xcassets */; };
-		C519DCF325E31333004F7DAA /* ICStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C519DCF225E31333004F7DAA /* ICStoryboard.storyboard */; };
+		C519DCF725E319AD004F7DAA /* ICProfileStoryBrd.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C519DCF625E319AD004F7DAA /* ICProfileStoryBrd.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,7 +21,7 @@
 		BA3753EE25DE082E001BAD7D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BA3753F125DE082E001BAD7D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BA3753F325DE082E001BAD7D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C519DCF225E31333004F7DAA /* ICStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ICStoryboard.storyboard; sourceTree = "<group>"; };
+		C519DCF625E319AD004F7DAA /* ICProfileStoryBrd.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ICProfileStoryBrd.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +56,10 @@
 			children = (
 				BA3753EA25DE082A001BAD7D /* InnovationChallengeApp.swift */,
 				BA3753EC25DE082A001BAD7D /* ContentView.swift */,
+				C519DCF625E319AD004F7DAA /* ICProfileStoryBrd.storyboard */,
 				BA3753EE25DE082E001BAD7D /* Assets.xcassets */,
 				BA3753F325DE082E001BAD7D /* Info.plist */,
 				BA3753F025DE082E001BAD7D /* Preview Content */,
-				C519DCF225E31333004F7DAA /* ICStoryboard.storyboard */,
 			);
 			path = InnovationChallenge;
 			sourceTree = "<group>";
@@ -129,9 +129,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C519DCF325E31333004F7DAA /* ICStoryboard.storyboard in Resources */,
 				BA3753F225DE082E001BAD7D /* Preview Assets.xcassets in Resources */,
 				BA3753EF25DE082E001BAD7D /* Assets.xcassets in Resources */,
+				C519DCF725E319AD004F7DAA /* ICProfileStoryBrd.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
