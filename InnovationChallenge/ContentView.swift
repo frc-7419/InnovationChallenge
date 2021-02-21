@@ -19,3 +19,9 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
+
+struct Button<Label> where Label :View {
+
+}
+
+
