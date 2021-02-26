@@ -13,6 +13,8 @@
 		F66F0A9825E88B1A00295472 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F66F0A9625E88B1A00295472 /* Main.storyboard */; };
 		F66F0A9A25E88B1C00295472 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F66F0A9925E88B1C00295472 /* Assets.xcassets */; };
 		F66F0A9D25E88B1C00295472 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F66F0A9B25E88B1C00295472 /* LaunchScreen.storyboard */; };
+		F66F0AA925E88F5400295472 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F66F0AA725E88F5400295472 /* Storyboard.storyboard */; };
+		F66F0AAA25E88F5400295472 /* HideObjects.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F66F0AA825E88F5400295472 /* HideObjects.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		F66F0A9925E88B1C00295472 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F66F0A9C25E88B1C00295472 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F66F0A9E25E88B1C00295472 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F66F0AA725E88F5400295472 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		F66F0AA825E88F5400295472 /* HideObjects.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = HideObjects.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 		F66F0A8F25E88B1A00295472 /* Activize */ = {
 			isa = PBXGroup;
 			children = (
+				F66F0AA825E88F5400295472 /* HideObjects.storyboard */,
+				F66F0AA725E88F5400295472 /* Storyboard.storyboard */,
 				F66F0A9025E88B1A00295472 /* AppDelegate.swift */,
 				F66F0A9225E88B1A00295472 /* SceneDelegate.swift */,
 				F66F0A9425E88B1A00295472 /* ViewController.swift */,
@@ -125,6 +131,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				F66F0A9D25E88B1C00295472 /* LaunchScreen.storyboard in Resources */,
+				F66F0AAA25E88F5400295472 /* HideObjects.storyboard in Resources */,
+				F66F0AA925E88F5400295472 /* Storyboard.storyboard in Resources */,
 				F66F0A9A25E88B1C00295472 /* Assets.xcassets in Resources */,
 				F66F0A9825E88B1A00295472 /* Main.storyboard in Resources */,
 			);
