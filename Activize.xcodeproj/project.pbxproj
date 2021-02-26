@@ -17,6 +17,7 @@
 		F66F0AAA25E88F5400295472 /* HideObjects.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F66F0AA825E88F5400295472 /* HideObjects.storyboard */; };
 		F66F0ABD25E8929200295472 /* LoginPage.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F66F0ABC25E8929200295472 /* LoginPage.storyboard */; };
 		F66F0AC225E8936100295472 /* Loading.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F66F0AC125E8936100295472 /* Loading.storyboard */; };
+		F66F0AC725E8945B00295472 /* ICProfileStoryBrd.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F66F0AC625E8945B00295472 /* ICProfileStoryBrd.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		F66F0AA825E88F5400295472 /* HideObjects.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = HideObjects.storyboard; sourceTree = "<group>"; };
 		F66F0ABC25E8929200295472 /* LoginPage.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LoginPage.storyboard; sourceTree = "<group>"; };
 		F66F0AC125E8936100295472 /* Loading.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Loading.storyboard; sourceTree = "<group>"; };
+		F66F0AC625E8945B00295472 /* ICProfileStoryBrd.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ICProfileStoryBrd.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 		F66F0A8F25E88B1A00295472 /* Activize */ = {
 			isa = PBXGroup;
 			children = (
+				F66F0AC625E8945B00295472 /* ICProfileStoryBrd.storyboard */,
 				F66F0AC125E8936100295472 /* Loading.storyboard */,
 				F66F0ABC25E8929200295472 /* LoginPage.storyboard */,
 				F66F0AA825E88F5400295472 /* HideObjects.storyboard */,
@@ -137,6 +140,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F66F0A9D25E88B1C00295472 /* LaunchScreen.storyboard in Resources */,
+				F66F0AC725E8945B00295472 /* ICProfileStoryBrd.storyboard in Resources */,
 				F66F0ABD25E8929200295472 /* LoginPage.storyboard in Resources */,
 				F66F0AAA25E88F5400295472 /* HideObjects.storyboard in Resources */,
 				F66F0AC225E8936100295472 /* Loading.storyboard in Resources */,
