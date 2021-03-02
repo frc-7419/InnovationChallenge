@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C53C07EE25ECC82200BE96B0 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C53C07ED25ECC82200BE96B0 /* LoginViewController.swift */; };
 		F66F0A9125E88B1A00295472 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F66F0A9025E88B1A00295472 /* AppDelegate.swift */; };
 		F66F0A9325E88B1A00295472 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F66F0A9225E88B1A00295472 /* SceneDelegate.swift */; };
 		F66F0A9525E88B1A00295472 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F66F0A9425E88B1A00295472 /* ViewController.swift */; };
@@ -22,6 +23,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C53C07ED25ECC82200BE96B0 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		F66F0A8D25E88B1A00295472 /* Activize.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Activize.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F66F0A9025E88B1A00295472 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F66F0A9225E88B1A00295472 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -70,13 +72,14 @@
 			children = (
 				F66F0AC625E8945B00295472 /* ICProfileStoryBrd.storyboard */,
 				F66F0AC125E8936100295472 /* Loading.storyboard */,
-				F66F0ABC25E8929200295472 /* LoginPage.storyboard */,
 				F66F0AA825E88F5400295472 /* HideObjects.storyboard */,
 				F66F0AA725E88F5400295472 /* Inventory.storyboard */,
 				F66F0A9025E88B1A00295472 /* AppDelegate.swift */,
 				F66F0AC925E8953200295472 /* HomePageUI.xib */,
 				F66F0A9225E88B1A00295472 /* SceneDelegate.swift */,
 				F66F0A9425E88B1A00295472 /* ViewController.swift */,
+				C53C07ED25ECC82200BE96B0 /* LoginViewController.swift */,
+				F66F0ABC25E8929200295472 /* LoginPage.storyboard */,
 				F66F0A9625E88B1A00295472 /* Main.storyboard */,
 				F66F0A9925E88B1C00295472 /* Assets.xcassets */,
 				F66F0A9B25E88B1C00295472 /* LaunchScreen.storyboard */,
@@ -161,6 +164,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C53C07EE25ECC82200BE96B0 /* LoginViewController.swift in Sources */,
 				F66F0A9525E88B1A00295472 /* ViewController.swift in Sources */,
 				F66F0A9125E88B1A00295472 /* AppDelegate.swift in Sources */,
 				F66F0A9325E88B1A00295472 /* SceneDelegate.swift in Sources */,
