@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9E51142125EDD546001234FC /* TabBarController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E51142025EDD546001234FC /* TabBarController.storyboard */; };
 		F66F0A9125E88B1A00295472 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F66F0A9025E88B1A00295472 /* AppDelegate.swift */; };
 		F66F0A9325E88B1A00295472 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F66F0A9225E88B1A00295472 /* SceneDelegate.swift */; };
 		F66F0A9525E88B1A00295472 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F66F0A9425E88B1A00295472 /* ViewController.swift */; };
@@ -22,6 +23,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9E51142025EDD546001234FC /* TabBarController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TabBarController.storyboard; sourceTree = "<group>"; };
 		F66F0A8D25E88B1A00295472 /* Activize.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Activize.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F66F0A9025E88B1A00295472 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F66F0A9225E88B1A00295472 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -69,6 +71,7 @@
 			isa = PBXGroup;
 			children = (
 				F66F0AC625E8945B00295472 /* ICProfileStoryBrd.storyboard */,
+				9E51142025EDD546001234FC /* TabBarController.storyboard */,
 				F66F0AC125E8936100295472 /* Loading.storyboard */,
 				F66F0ABC25E8929200295472 /* LoginPage.storyboard */,
 				F66F0AA825E88F5400295472 /* HideObjects.storyboard */,
@@ -144,6 +147,7 @@
 			files = (
 				F66F0A9D25E88B1C00295472 /* LaunchScreen.storyboard in Resources */,
 				F66F0AC725E8945B00295472 /* ICProfileStoryBrd.storyboard in Resources */,
+				9E51142125EDD546001234FC /* TabBarController.storyboard in Resources */,
 				F66F0ABD25E8929200295472 /* LoginPage.storyboard in Resources */,
 				F66F0ACA25E8953300295472 /* HomePageUI.xib in Resources */,
 				F66F0AAA25E88F5400295472 /* HideObjects.storyboard in Resources */,
