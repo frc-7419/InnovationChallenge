@@ -20,6 +20,7 @@
 		F66F0AC225E8936100295472 /* Loading.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F66F0AC125E8936100295472 /* Loading.storyboard */; };
 		F66F0AC725E8945B00295472 /* ICProfileStoryBrd.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F66F0AC625E8945B00295472 /* ICProfileStoryBrd.storyboard */; };
 		F66F0ACA25E8953300295472 /* HomePageUI.xib in Resources */ = {isa = PBXBuildFile; fileRef = F66F0AC925E8953200295472 /* HomePageUI.xib */; };
+		F66F0ACD25E8987C00295472 /* HomePage.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F66F0ACC25E8987C00295472 /* HomePage.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		F66F0AC125E8936100295472 /* Loading.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Loading.storyboard; sourceTree = "<group>"; };
 		F66F0AC625E8945B00295472 /* ICProfileStoryBrd.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ICProfileStoryBrd.storyboard; sourceTree = "<group>"; };
 		F66F0AC925E8953200295472 /* HomePageUI.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomePageUI.xib; sourceTree = "<group>"; };
+		F66F0ACC25E8987C00295472 /* HomePage.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = HomePage.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 				9E51142025EDD546001234FC /* TabBarController.storyboard */,
 				F66F0AC125E8936100295472 /* Loading.storyboard */,
 				F66F0ABC25E8929200295472 /* LoginPage.storyboard */,
+				F66F0ACC25E8987C00295472 /* HomePage.storyboard */,
 				F66F0AA825E88F5400295472 /* HideObjects.storyboard */,
 				F66F0AA725E88F5400295472 /* Inventory.storyboard */,
 				F66F0A9025E88B1A00295472 /* AppDelegate.swift */,
@@ -145,6 +148,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F66F0ACD25E8987C00295472 /* HomePage.storyboard in Resources */,
 				F66F0A9D25E88B1C00295472 /* LaunchScreen.storyboard in Resources */,
 				F66F0AC725E8945B00295472 /* ICProfileStoryBrd.storyboard in Resources */,
 				9E51142125EDD546001234FC /* TabBarController.storyboard in Resources */,
