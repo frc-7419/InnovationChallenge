@@ -78,12 +78,12 @@
 				F66F0A9025E88B1A00295472 /* AppDelegate.swift */,
 				F66F0AC925E8953200295472 /* HomePageUI.xib */,
 				F66F0A9225E88B1A00295472 /* SceneDelegate.swift */,
-				F66F0A9425E88B1A00295472 /* ViewController.swift */,
 				15A143C925EDD8A6008EE8A7 /* SignUpPage.storyboard */,
 				F66F0A9625E88B1A00295472 /* Main.storyboard */,
 				F66F0A9925E88B1C00295472 /* Assets.xcassets */,
 				F66F0A9B25E88B1C00295472 /* LaunchScreen.storyboard */,
 				F66F0A9E25E88B1C00295472 /* Info.plist */,
+				F66F0A9425E88B1A00295472 /* ViewController.swift */,
 			);
 			path = Activize;
 			sourceTree = "<group>";

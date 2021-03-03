@@ -161,6 +161,9 @@
                             <constraint firstItem="Sa1-zb-cNM" firstAttribute="top" secondItem="EFJ-Gj-Qq1" secondAttribute="bottom" constant="33" id="zBa-xg-RTk"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="searchDisplayController" destination="R40-Ca-FiB" id="NCF-nf-sH5"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7mN-q5-ceA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

@@ -12,7 +12,7 @@
         <!--View Controller-->
         <scene sceneID="hPi-b6-c4G">
             <objects>
-                <viewController id="uA5-HD-Mzb" sceneMemberID="viewController">
+                <viewController id="uA5-HD-Mzb" customClass="ViewController" customModule="Activize" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="uVW-oS-7iQ">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
