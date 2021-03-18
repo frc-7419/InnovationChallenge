@@ -26,23 +26,6 @@
                                         <constraints>
                                             <constraint firstAttribute="width" constant="77" id="3pn-kP-4CO"/>
                                             <constraint firstAttribute="height" constant="34" id="rqD-cb-dld"/>
-=======
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="QR Code" translatesAutoresizingMaskIntoConstraints="NO" id="16w-L4-kDJ">
-                                <rect key="frame" x="105.5" y="158" width="203" height="203"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="203" id="pYe-ff-As9"/>
-                                    <constraint firstAttribute="width" constant="203" id="wHG-Xd-W0I"/>
-                                </constraints>
-                            </imageView>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KB8-S7-qKB">
-                                <rect key="frame" x="145" y="442" width="124" height="91"/>
-                                <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oLF-MA-FXX">
-                                        <rect key="frame" x="24.5" y="19" width="75" height="52"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="52" id="QQQ-rW-6ng"/>
-                                            <constraint firstAttribute="width" constant="75" id="q2j-fD-QtP"/>
->>>>>>> main
                                         </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="28"/>
                                         <state key="normal" title="Scan">
@@ -57,12 +40,6 @@
                                     <constraint firstAttribute="height" constant="91" id="YT1-Sm-Bbt"/>
                                     <constraint firstAttribute="width" constant="124" id="ZrA-7k-9gF"/>
                                     <constraint firstItem="oLF-MA-FXX" firstAttribute="top" secondItem="KB8-S7-qKB" secondAttribute="top" constant="28" id="ceb-Nr-Rzi"/>
-=======
-                                    <constraint firstItem="oLF-MA-FXX" firstAttribute="top" secondItem="KB8-S7-qKB" secondAttribute="top" constant="19" id="eYM-zx-6Yh"/>
-                                    <constraint firstItem="oLF-MA-FXX" firstAttribute="centerX" secondItem="KB8-S7-qKB" secondAttribute="centerX" id="gHg-yp-0ef"/>
-                                    <constraint firstAttribute="height" constant="91" id="mJq-fe-KDq"/>
-                                    <constraint firstAttribute="width" constant="124" id="rLf-bz-1mn"/>
->>>>>>> main
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YfC-ZN-NIP">
@@ -74,12 +51,6 @@
                                         <constraints>
                                             <constraint firstAttribute="height" constant="61" id="4fy-tL-T8f"/>
                                             <constraint firstAttribute="width" constant="143" id="zdJ-xy-vZH"/>
-=======
-                                        <rect key="frame" x="27.5" y="29" width="157" height="47"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="47" id="N9D-Cn-lU0"/>
-                                            <constraint firstAttribute="width" constant="157" id="wy1-TW-Bgo"/>
->>>>>>> main
                                         </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="26"/>
                                         <state key="normal" title="Map Object">
@@ -109,19 +80,6 @@
                                 <constraints>
                                     <constraint firstAttribute="width" constant="240" id="S6c-wu-sgX"/>
                                     <constraint firstAttribute="height" constant="57" id="jmn-lC-hwk"/>
-=======
-                                    <constraint firstItem="bAN-24-18z" firstAttribute="top" secondItem="YfC-ZN-NIP" secondAttribute="top" constant="29" id="3f3-ol-xQv"/>
-                                    <constraint firstItem="bAN-24-18z" firstAttribute="centerX" secondItem="YfC-ZN-NIP" secondAttribute="centerX" id="5u1-jz-66k"/>
-                                    <constraint firstAttribute="width" constant="212" id="Am4-9N-sG1"/>
-                                    <constraint firstAttribute="height" constant="104" id="SuS-yb-zxC"/>
-                                </constraints>
-                            </view>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hide Objects" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lKT-Zq-f7H">
-                                <rect key="frame" x="90.5" y="60" width="233.5" height="68"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="233.5" id="av3-ts-xrE"/>
-                                    <constraint firstAttribute="height" constant="68" id="d6C-nb-D1W"/>
->>>>>>> main
                                 </constraints>
                                 <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="42"/>
                                 <color key="textColor" systemColor="linkColor"/>
@@ -133,12 +91,6 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="61" id="2ZP-go-WSH"/>
                                     <constraint firstAttribute="width" constant="268" id="BFs-8Q-dhp"/>
-=======
-                                <rect key="frame" x="75" y="366" width="264" height="48"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="48" id="hdl-fc-Ffp"/>
-                                    <constraint firstAttribute="width" constant="264" id="pfm-UG-7CF"/>
->>>>>>> main
                                 </constraints>
                                 <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="23"/>
                                 <color key="highlightedColor" name="AccentColor"/>
@@ -165,18 +117,6 @@
                             <constraint firstItem="lKT-Zq-f7H" firstAttribute="centerX" secondItem="sQV-eR-Qi6" secondAttribute="centerX" id="mlW-0e-lqR"/>
                             <constraint firstItem="16w-L4-kDJ" firstAttribute="top" secondItem="lKT-Zq-f7H" secondAttribute="bottom" constant="8" symbolic="YES" id="oxR-Z3-u51"/>
                             <constraint firstItem="lKT-Zq-f7H" firstAttribute="top" secondItem="sQV-eR-Qi6" secondAttribute="top" constant="16" id="ubG-zx-pWR"/>
-=======
-                            <constraint firstItem="80V-NA-kxu" firstAttribute="top" secondItem="16w-L4-kDJ" secondAttribute="bottom" constant="5" id="87N-Gl-pSt"/>
-                            <constraint firstItem="16w-L4-kDJ" firstAttribute="top" secondItem="sQV-eR-Qi6" secondAttribute="top" constant="114" id="CPh-pH-ita"/>
-                            <constraint firstItem="16w-L4-kDJ" firstAttribute="centerX" secondItem="sQV-eR-Qi6" secondAttribute="centerX" id="Cpl-ms-4Fp"/>
-                            <constraint firstItem="KB8-S7-qKB" firstAttribute="centerX" secondItem="sQV-eR-Qi6" secondAttribute="centerX" id="Idw-Qj-9rz"/>
-                            <constraint firstItem="YfC-ZN-NIP" firstAttribute="top" secondItem="KB8-S7-qKB" secondAttribute="bottom" constant="49" id="QFe-Bc-DpD"/>
-                            <constraint firstItem="80V-NA-kxu" firstAttribute="centerX" secondItem="sQV-eR-Qi6" secondAttribute="centerX" id="Voe-Ex-FfT"/>
-                            <constraint firstItem="lKT-Zq-f7H" firstAttribute="centerX" secondItem="sQV-eR-Qi6" secondAttribute="centerX" id="epY-hT-cY5"/>
-                            <constraint firstItem="KB8-S7-qKB" firstAttribute="top" secondItem="80V-NA-kxu" secondAttribute="bottom" constant="28" id="jaE-Rg-udv"/>
-                            <constraint firstItem="lKT-Zq-f7H" firstAttribute="top" secondItem="sQV-eR-Qi6" secondAttribute="top" constant="16" id="oUx-Rc-Dxw"/>
-                            <constraint firstItem="YfC-ZN-NIP" firstAttribute="centerX" secondItem="sQV-eR-Qi6" secondAttribute="centerX" id="q3b-DO-xkI"/>
->>>>>>> main
                         </constraints>
                     </view>
                 </viewController>
