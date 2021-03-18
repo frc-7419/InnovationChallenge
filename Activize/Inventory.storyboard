@@ -17,7 +17,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-<<<<<<< HEAD
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="BackPack" translatesAutoresizingMaskIntoConstraints="NO" id="Vt4-zN-6T1">
                                 <rect key="frame" x="145" y="67" width="143" height="166"/>
                                 <color key="backgroundColor" red="0.7670964106" green="0.84292021260000005" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -96,7 +95,6 @@
                                 </subviews>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <constraints>
-<<<<<<< HEAD
                                     <constraint firstItem="lBY-9M-tH4" firstAttribute="leading" secondItem="GLO-zc-yx1" secondAttribute="leading" constant="24" id="056-Ff-Ol9"/>
                                     <constraint firstItem="Fi5-Z4-9dz" firstAttribute="top" secondItem="EU7-G0-Fia" secondAttribute="bottom" constant="20" id="1HL-aU-0Zt"/>
                                     <constraint firstItem="Im8-Xt-F2d" firstAttribute="leading" secondItem="GLO-zc-yx1" secondAttribute="leading" constant="24" id="41w-d8-lts"/>
@@ -129,7 +127,6 @@
                                 <color key="textColor" systemColor="linkColor"/>
                                 <color key="highlightedColor" name="AccentColor"/>
                             </label>
-<<<<<<< HEAD
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Unlocked Objects" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SGF-8K-zcC">
                                 <rect key="frame" x="127" y="321" width="179" height="37"/>
                                 <constraints>
@@ -139,7 +136,6 @@
                                 <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="23"/>
                                 <color key="highlightedColor" name="AccentColor"/>
                             </label>
-<<<<<<< HEAD
                             <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="n1a-xm-67A">
                                 <rect key="frame" x="35" y="615" width="369" height="166"/>
                                 <subviews>
@@ -210,7 +206,6 @@
                                 </subviews>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <constraints>
-<<<<<<< HEAD
                                     <constraint firstAttribute="trailing" secondItem="sj3-C3-hz3" secondAttribute="trailing" constant="24" id="3g9-qk-Ejj"/>
                                     <constraint firstAttribute="trailing" secondItem="jUt-b1-1mM" secondAttribute="trailing" constant="24" id="DA8-Hq-TQ8"/>
                                     <constraint firstItem="1FQ-0g-GQB" firstAttribute="leading" secondItem="QzX-ic-mIb" secondAttribute="trailing" constant="25" id="DHU-E0-bML"/>
@@ -246,7 +241,6 @@
                         <viewLayoutGuide key="safeArea" id="oTR-WZ-nZE"/>
                         <color key="backgroundColor" red="0.76709641062431988" green="0.84292021259882" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
-<<<<<<< HEAD
                             <constraint firstItem="n1a-xm-67A" firstAttribute="top" secondItem="3XJ-Cg-yTE" secondAttribute="bottom" constant="18" id="B7D-uM-ta7"/>
                             <constraint firstItem="SGF-8K-zcC" firstAttribute="top" secondItem="9KT-Ha-RCJ" secondAttribute="bottom" constant="29" id="LgZ-Gt-ZRP"/>
                             <constraint firstItem="9KT-Ha-RCJ" firstAttribute="top" secondItem="Vt4-zN-6T1" secondAttribute="bottom" constant="8" symbolic="YES" id="Z8c-Yd-ABU"/>

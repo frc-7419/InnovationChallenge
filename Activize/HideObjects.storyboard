@@ -17,7 +17,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-<<<<<<< HEAD
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KB8-S7-qKB">
                                 <rect key="frame" x="145" y="442" width="124" height="91"/>
                                 <subviews>
@@ -35,7 +34,6 @@
                                 </subviews>
                                 <color key="backgroundColor" systemColor="systemGray2Color"/>
                                 <constraints>
-<<<<<<< HEAD
                                     <constraint firstItem="oLF-MA-FXX" firstAttribute="centerX" secondItem="KB8-S7-qKB" secondAttribute="centerX" id="HXP-Qh-Ph1"/>
                                     <constraint firstAttribute="height" constant="91" id="YT1-Sm-Bbt"/>
                                     <constraint firstAttribute="width" constant="124" id="ZrA-7k-9gF"/>
@@ -46,7 +44,6 @@
                                 <rect key="frame" x="101" y="582" width="212" height="104"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bAN-24-18z">
-<<<<<<< HEAD
                                         <rect key="frame" x="34.5" y="22" width="143" height="61"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="61" id="4fy-tL-T8f"/>
@@ -60,7 +57,6 @@
                                 </subviews>
                                 <color key="backgroundColor" systemColor="systemGray2Color"/>
                                 <constraints>
-<<<<<<< HEAD
                                     <constraint firstAttribute="height" constant="104" id="0Ur-LV-h3a"/>
                                     <constraint firstItem="bAN-24-18z" firstAttribute="top" secondItem="YfC-ZN-NIP" secondAttribute="top" constant="22" id="3iO-xQ-QNz"/>
                                     <constraint firstAttribute="width" constant="212" id="Cvl-wQ-fkI"/>
@@ -86,7 +82,6 @@
                                 <color key="highlightedColor" name="AccentColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Scan QR to Hide an Object" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="80V-NA-kxu">
-<<<<<<< HEAD
                                 <rect key="frame" x="73" y="347" width="268" height="61"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="61" id="2ZP-go-WSH"/>
@@ -106,7 +101,6 @@
                         <viewLayoutGuide key="safeArea" id="sQV-eR-Qi6"/>
                         <color key="backgroundColor" red="0.7670964106" green="0.84292021260000005" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
-<<<<<<< HEAD
                             <constraint firstItem="16w-L4-kDJ" firstAttribute="centerX" secondItem="sQV-eR-Qi6" secondAttribute="centerX" id="CIS-bK-IdR"/>
                             <constraint firstItem="80V-NA-kxu" firstAttribute="top" secondItem="16w-L4-kDJ" secondAttribute="bottom" constant="12" id="Eea-lG-Txk"/>
                             <constraint firstItem="80V-NA-kxu" firstAttribute="centerX" secondItem="sQV-eR-Qi6" secondAttribute="centerX" id="HIb-vx-Era"/>
