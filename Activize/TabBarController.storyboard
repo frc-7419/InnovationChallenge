@@ -33,7 +33,7 @@
         <scene sceneID="sf1-q9-IMW">
             <objects>
                 <viewControllerPlaceholder storyboardName="HomePage" id="nM3-fp-nJ3" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Home" image="house.fill" catalog="system" badgeValue="Home" selectedImage="house.fill" id="jdM-Kl-3ly"/>
+                    <tabBarItem key="tabBarItem" title="Home" image="house.fill" catalog="system" selectedImage="house.fill" id="jdM-Kl-3ly"/>
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rmu-kU-2yX" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -43,7 +43,7 @@
         <scene sceneID="Anq-lh-7b9">
             <objects>
                 <viewControllerPlaceholder storyboardName="HideObjects" id="Hnt-OT-Ic5" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Hide" image="qrcode" catalog="system" badgeValue="Hide" selectedImage="qrcode" id="Soh-ux-dSA"/>
+                    <tabBarItem key="tabBarItem" title="Hide" image="qrcode" catalog="system" selectedImage="qrcode" id="Soh-ux-dSA"/>
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vUY-yI-pqu" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -53,7 +53,7 @@
         <scene sceneID="Oao-7H-r97">
             <objects>
                 <viewControllerPlaceholder storyboardName="Inventory" id="Pnz-zP-HWe" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Inventory" image="briefcase.fill" catalog="system" badgeValue="Inventory" selectedImage="briefcase.fill" id="2vO-qC-wh8"/>
+                    <tabBarItem key="tabBarItem" title="Inventory" image="briefcase.fill" catalog="system" selectedImage="briefcase.fill" id="2vO-qC-wh8"/>
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="L7H-94-s81" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -63,7 +63,7 @@
         <scene sceneID="Uef-hT-Mmc">
             <objects>
                 <viewControllerPlaceholder storyboardName="ProfileFinished" id="KhU-uF-U2P" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Profile" image="person.fill" catalog="system" badgeValue="Profile" selectedImage="person.fill" id="KcJ-q4-ruK"/>
+                    <tabBarItem key="tabBarItem" title="Profile" image="person.fill" catalog="system" selectedImage="person.fill" id="KcJ-q4-ruK"/>
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="00R-97-QTu" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
