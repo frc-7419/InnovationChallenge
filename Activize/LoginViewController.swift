@@ -14,8 +14,12 @@ class LoginViewController: UIViewController {
     
     
     @IBAction func signIn(_ sender: Any) {
-        present(UIViewController(), animated: true)
+        let lgvc = storyboard?.instantiateViewController(identifier: "HomePage") as! LoginViewController
+        
+        present(lgvc, animated: true)
     }
+    
+    
     
     
     override func viewDidLoad() {
