@@ -15,10 +15,9 @@
 		F66F0A9A25E88B1C00295472 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F66F0A9925E88B1C00295472 /* Assets.xcassets */; };
 		F66F0A9D25E88B1C00295472 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F66F0A9B25E88B1C00295472 /* LaunchScreen.storyboard */; };
 		F66F0AA925E88F5400295472 /* Inventory.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F66F0AA725E88F5400295472 /* Inventory.storyboard */; };
-		F66F0AAA25E88F5400295472 /* HideObjects.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F66F0AA825E88F5400295472 /* HideObjects.storyboard */; };
+		F66F0AAA25E88F5400295472 /* FindObjects.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F66F0AA825E88F5400295472 /* FindObjects.storyboard */; };
 		F66F0ABD25E8929200295472 /* LoginPage.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F66F0ABC25E8929200295472 /* LoginPage.storyboard */; };
 		F66F0AC225E8936100295472 /* Loading.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F66F0AC125E8936100295472 /* Loading.storyboard */; };
-		F66F0AC725E8945B00295472 /* ProfileFinished.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F66F0AC625E8945B00295472 /* ProfileFinished.storyboard */; };
 		F66F0ACD25E8987C00295472 /* HomePage.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F66F0ACC25E8987C00295472 /* HomePage.storyboard */; };
 /* End PBXBuildFile section */
 
@@ -33,10 +32,9 @@
 		F66F0A9C25E88B1C00295472 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F66F0A9E25E88B1C00295472 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F66F0AA725E88F5400295472 /* Inventory.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Inventory.storyboard; sourceTree = "<group>"; };
-		F66F0AA825E88F5400295472 /* HideObjects.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = HideObjects.storyboard; sourceTree = "<group>"; };
+		F66F0AA825E88F5400295472 /* FindObjects.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = FindObjects.storyboard; sourceTree = "<group>"; };
 		F66F0ABC25E8929200295472 /* LoginPage.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LoginPage.storyboard; sourceTree = "<group>"; };
 		F66F0AC125E8936100295472 /* Loading.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Loading.storyboard; sourceTree = "<group>"; };
-		F66F0AC625E8945B00295472 /* ProfileFinished.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ProfileFinished.storyboard; sourceTree = "<group>"; };
 		F66F0ACC25E8987C00295472 /* HomePage.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = HomePage.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -70,12 +68,11 @@
 		F66F0A8F25E88B1A00295472 /* Activize */ = {
 			isa = PBXGroup;
 			children = (
-				F66F0AC625E8945B00295472 /* ProfileFinished.storyboard */,
 				9E51142025EDD546001234FC /* TabBarController.storyboard */,
 				F66F0AC125E8936100295472 /* Loading.storyboard */,
 				F66F0ABC25E8929200295472 /* LoginPage.storyboard */,
 				F66F0ACC25E8987C00295472 /* HomePage.storyboard */,
-				F66F0AA825E88F5400295472 /* HideObjects.storyboard */,
+				F66F0AA825E88F5400295472 /* FindObjects.storyboard */,
 				F66F0AA725E88F5400295472 /* Inventory.storyboard */,
 				F66F0A9025E88B1A00295472 /* AppDelegate.swift */,
 				F66F0A9225E88B1A00295472 /* SceneDelegate.swift */,
@@ -147,10 +144,9 @@
 			files = (
 				F66F0ACD25E8987C00295472 /* HomePage.storyboard in Resources */,
 				F66F0A9D25E88B1C00295472 /* LaunchScreen.storyboard in Resources */,
-				F66F0AC725E8945B00295472 /* ProfileFinished.storyboard in Resources */,
 				9E51142125EDD546001234FC /* TabBarController.storyboard in Resources */,
 				F66F0ABD25E8929200295472 /* LoginPage.storyboard in Resources */,
-				F66F0AAA25E88F5400295472 /* HideObjects.storyboard in Resources */,
+				F66F0AAA25E88F5400295472 /* FindObjects.storyboard in Resources */,
 				F66F0AC225E8936100295472 /* Loading.storyboard in Resources */,
 				F66F0AA925E88F5400295472 /* Inventory.storyboard in Resources */,
 				F66F0A9A25E88B1C00295472 /* Assets.xcassets in Resources */,
