@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="ytW-0W-iqW">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Tab Bar Controller-->
+        <scene sceneID="aJ6-8l-ATL">
+            <objects>
+                <tabBarController id="ytW-0W-iqW" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="IKt-QT-a2U">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="hEE-yb-fcQ" kind="relationship" relationship="viewControllers" id="IBK-LP-1aS"/>
+                        <segue destination="pip-dJ-vDH" kind="relationship" relationship="viewControllers" id="eDU-CY-b8J"/>
+                        <segue destination="E7P-Vj-bDv" kind="relationship" relationship="viewControllers" id="tmh-HN-bkb"/>
+                        <segue destination="Iu4-6H-qKp" kind="relationship" relationship="viewControllers" id="OaG-Df-81W"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="JeO-ea-1vd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-413" y="-538"/>
+        </scene>
+        <!--ICProfileStoryBrd-->
+        <scene sceneID="e48-fd-3Yr">
+            <objects>
+                <viewControllerPlaceholder storyboardName="ICProfileStoryBrd" id="Iu4-6H-qKp" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Profile" image="person.fill" catalog="system" id="ujz-i8-qcM"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6lC-hQ-eTH" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="811" y="-362"/>
+        </scene>
+        <!--FindObjects-->
+        <scene sceneID="ILH-A5-dhs">
+            <objects>
+                <viewControllerPlaceholder storyboardName="FindObjects" id="E7P-Vj-bDv" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Home" image="house.fill" catalog="system" id="H8m-s6-swy"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zUU-qd-dme" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="650" y="-228"/>
+        </scene>
+        <!--HomePage-->
+        <scene sceneID="zIn-8C-uaq">
+            <objects>
+                <viewControllerPlaceholder storyboardName="HomePage" id="pip-dJ-vDH" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Hide" image="qrcode" catalog="system" id="VsP-Rk-eJy"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tUD-eB-8gd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="353" y="-82"/>
+        </scene>
+        <!--Inventory-->
+        <scene sceneID="BgI-YA-NzY">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Inventory" storyboardName="Inventory" id="hEE-yb-fcQ" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Inventory" image="briefcase.fill" catalog="system" id="aFG-B0-Q5h"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fvs-qd-goz" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-31" y="-15"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="briefcase.fill" catalog="system" width="128" height="105"/>
+        <image name="house.fill" catalog="system" width="128" height="106"/>
+        <image name="person.fill" catalog="system" width="128" height="120"/>
+        <image name="qrcode" catalog="system" width="128" height="114"/>
+    </resources>
+</document>
