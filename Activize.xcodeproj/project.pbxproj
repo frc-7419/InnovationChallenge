@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -20,6 +20,8 @@
 		F66F0AC225E8936100295472 /* Loading.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F66F0AC125E8936100295472 /* Loading.storyboard */; };
 		F66F0AC725E8945B00295472 /* ICProfileStoryBrd.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F66F0AC625E8945B00295472 /* ICProfileStoryBrd.storyboard */; };
 		F66F0ACD25E8987C00295472 /* HomePage.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F66F0ACC25E8987C00295472 /* HomePage.storyboard */; };
+		F6F51268260ADCDB00740BD5 /* QRCodeReaderViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F51267260ADCDB00740BD5 /* QRCodeReaderViewControllerDelegate.swift */; };
+		F6F5126C260ADEBD00740BD5 /* QRCodeReader in Frameworks */ = {isa = PBXBuildFile; productRef = F6F5126B260ADEBD00740BD5 /* QRCodeReader */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +40,7 @@
 		F66F0AC125E8936100295472 /* Loading.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Loading.storyboard; sourceTree = "<group>"; };
 		F66F0AC625E8945B00295472 /* ICProfileStoryBrd.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ICProfileStoryBrd.storyboard; sourceTree = "<group>"; };
 		F66F0ACC25E8987C00295472 /* HomePage.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = HomePage.storyboard; sourceTree = "<group>"; };
+		F6F51267260ADCDB00740BD5 /* QRCodeReaderViewControllerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeReaderViewControllerDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +48,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F6F5126C260ADEBD00740BD5 /* QRCodeReader in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,6 +88,7 @@
 				F66F0A9925E88B1C00295472 /* Assets.xcassets */,
 				F66F0A9B25E88B1C00295472 /* LaunchScreen.storyboard */,
 				F66F0A9E25E88B1C00295472 /* Info.plist */,
+				F6F51267260ADCDB00740BD5 /* QRCodeReaderViewControllerDelegate.swift */,
 			);
 			path = Activize;
 			sourceTree = "<group>";
@@ -104,6 +109,9 @@
 			dependencies = (
 			);
 			name = Activize;
+			packageProductDependencies = (
+				F6F5126B260ADEBD00740BD5 /* QRCodeReader */,
+			);
 			productName = Activize;
 			productReference = F66F0A8D25E88B1A00295472 /* Activize.app */;
 			productType = "com.apple.product-type.application";
@@ -131,6 +139,9 @@
 				Base,
 			);
 			mainGroup = F66F0A8425E88B1A00295472;
+			packageReferences = (
+				F6F5126A260ADEBD00740BD5 /* XCRemoteSwiftPackageReference "QRCodeReader" */,
+			);
 			productRefGroup = F66F0A8E25E88B1A00295472 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -167,6 +178,7 @@
 			files = (
 				F66F0A9525E88B1A00295472 /* ViewController.swift in Sources */,
 				F66F0A9125E88B1A00295472 /* AppDelegate.swift in Sources */,
+				F6F51268260ADCDB00740BD5 /* QRCodeReaderViewControllerDelegate.swift in Sources */,
 				F66F0A9325E88B1A00295472 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -369,6 +381,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F6F5126A260ADEBD00740BD5 /* XCRemoteSwiftPackageReference "QRCodeReader" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/yannickl/QRCodeReader.swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.1.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F6F5126B260ADEBD00740BD5 /* QRCodeReader */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F6F5126A260ADEBD00740BD5 /* XCRemoteSwiftPackageReference "QRCodeReader" */;
+			productName = QRCodeReader;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = F66F0A8525E88B1A00295472 /* Project object */;
 }
