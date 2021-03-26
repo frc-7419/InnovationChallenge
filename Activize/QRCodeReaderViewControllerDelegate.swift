@@ -35,19 +35,18 @@ class FindObjectsViewController: UIViewController, QRCodeReaderViewControllerDel
       // By using the delegate pattern
         
       //The following code is for generating a URL
-      let previewController = QLPreviewController()
-      previewController.dataSource = self
-      present(previewController, animated: true)
-      let stringPath = Bundle.main.path(forResource: "input", ofType: "png")
-      let urlPath = Bundle.main.url(forResource: "input", withExtension: "png")
+
         
 
       readerVC.delegate = self
 
       // Or by using the closure pattern
       readerVC.completionBlock = { (result: QRCodeReaderResult?) in
-        print(result)
-        
+        let previewController = QLPreviewController()
+        previewController.dataSource = self
+        self.readerVC.dismiss(animated: true) {
+            self.present(previewController, animated: true)
+        }
       }
 
       // Presents the readerVC as modal form sheet
@@ -65,8 +64,8 @@ class FindObjectsViewController: UIViewController, QRCodeReaderViewControllerDel
     
     func previewController(_ controller: QLPreviewController, previewItemAt index: Int) -> QLPreviewItem {
         
-        guard let url = Bundle.main.url(forResource: String(index), withExtension: "png") else {
-            fatalError("Could not load \(index).png")
+        guard let url = Bundle.main.url(forResource: "CAD_Image", withExtension: "png") else {
+            fatalError("Could not load CAD_Image.png")
         }
 
         return url as QLPreviewItem
