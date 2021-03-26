@@ -12,8 +12,20 @@ import UIKit
 import QuickLook
 
 
+<<<<<<< HEAD
+class FindObjectsViewController: UIViewController, QRCodeReaderViewControllerDelegate, QLPreviewControllerDataSource {
+//    func numberOfPreviewItems(in controller: QLPreviewController) -> Int {
+//        <#code#>
+//    }
+//
+//    func previewController(_ controller: QLPreviewController, previewItemAt index: Int) -> QLPreviewItem {
+//        <#code#>
+//    }
+    
+=======
 
 class FindObjectsViewController: UIViewController, QRCodeReaderViewControllerDelegate, QLPreviewControllerDataSource {
+>>>>>>> main
     
     lazy var readerVC: QRCodeReaderViewController = {
         let builder = QRCodeReaderViewControllerBuilder {
@@ -51,11 +63,25 @@ class FindObjectsViewController: UIViewController, QRCodeReaderViewControllerDel
 
       // Presents the readerVC as modal form sheet
       readerVC.modalPresentationStyle = .formSheet
-     
+        
       present(readerVC, animated: true, completion: nil)
     }
     
+<<<<<<< HEAD
+    func numberOfPreviewItems(in controller: QLPreviewController) -> Int {
+        return 1
+    }
+    
+    func previewController(_ controller: QLPreviewController, previewItemAt index: Int) -> QLPreviewItem {
+        guard let url = Bundle.main.url(forResource: "CAD_Image", withExtension: "png") else {
+            fatalError("Could not load CAD_Image.png")
+        }
+        
+        return url as QLPreviewItem
+    }
+=======
 //Instance of QLPreviewController ------------- added by Sudharsan Gopalakrishnan 3/25-26/21
+>>>>>>> main
 
     
     func numberOfPreviewItems(in controller: QLPreviewController) -> Int {
