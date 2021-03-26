@@ -9,9 +9,18 @@ import Foundation
 import AVFoundation
 import QRCodeReader
 import UIKit
+import QuickLook
 
 
-class FindObjectsViewController: UIViewController, QRCodeReaderViewControllerDelegate {
+class FindObjectsViewController: UIViewController, QRCodeReaderViewControllerDelegate, QLPreviewControllerDataSource {
+//    func numberOfPreviewItems(in controller: QLPreviewController) -> Int {
+//        <#code#>
+//    }
+//
+//    func previewController(_ controller: QLPreviewController, previewItemAt index: Int) -> QLPreviewItem {
+//        <#code#>
+//    }
+    
     
     lazy var readerVC: QRCodeReaderViewController = {
         let builder = QRCodeReaderViewControllerBuilder {
@@ -45,8 +54,23 @@ class FindObjectsViewController: UIViewController, QRCodeReaderViewControllerDel
       present(readerVC, animated: true, completion: nil)
         
         let urlPath = Bundle.main.url(forResource: "input", withExtension: "png")
-        let previewController
         
+        let previewController = QLPreviewController()
+        previewController.dataSource = self
+        present(previewController, animated: true)
+        
+    }
+    
+    func numberOfPreviewItems(in controller: QLPreviewController) -> Int {
+        return 1
+    }
+    
+    func previewController(_ controller: QLPreviewController, previewItemAt index: Int) -> QLPreviewItem {
+        guard let url = Bundle.main.url(forResource: String(index), withExtension: "png") else {
+            fatalError("Could not load \(index).png")
+        }
+        
+        return url as QLPreviewItem
     }
 
     func reader(_ reader: QRCodeReaderViewController, didScanResult result: QRCodeReaderResult) {
