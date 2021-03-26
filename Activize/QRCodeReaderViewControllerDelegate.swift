@@ -33,11 +33,13 @@ class FindObjectsViewController: UIViewController, QRCodeReaderViewControllerDel
     @IBAction func scanAction(_ sender: AnyObject) {
       // Retrieve the QRCode content
       // By using the delegate pattern
+        
+      //The following code is for generating a URL
       let previewController = QLPreviewController()
       previewController.dataSource = self
       present(previewController, animated: true)
-      let stringPath = Bundle.main.path(forResource: "input", ofType: "txt")
-      let urlPath = Bundle.main.url(forResource: "input", withExtension: "txt")
+      let stringPath = Bundle.main.path(forResource: "input", ofType: "png")
+      let urlPath = Bundle.main.url(forResource: "input", withExtension: "png")
         
 
       readerVC.delegate = self
