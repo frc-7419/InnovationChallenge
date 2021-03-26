@@ -43,6 +43,10 @@ class FindObjectsViewController: UIViewController, QRCodeReaderViewControllerDel
       readerVC.modalPresentationStyle = .formSheet
      
       present(readerVC, animated: true, completion: nil)
+        
+        let urlPath = Bundle.main.url(forResource: "input", withExtension: "png")
+        let previewController
+        
     }
 
     func reader(_ reader: QRCodeReaderViewController, didScanResult result: QRCodeReaderResult) {
