@@ -9,9 +9,11 @@ import Foundation
 import AVFoundation
 import QRCodeReader
 import UIKit
+import QuickLook
 
 
-class FindObjectsViewController: UIViewController, QRCodeReaderViewControllerDelegate {
+
+class FindObjectsViewController: UIViewController, QRCodeReaderViewControllerDelegate, QLPreviewControllerDataSource {
     
     lazy var readerVC: QRCodeReaderViewController = {
         let builder = QRCodeReaderViewControllerBuilder {
@@ -28,15 +30,23 @@ class FindObjectsViewController: UIViewController, QRCodeReaderViewControllerDel
         return QRCodeReaderViewController(builder: builder)
     }()
 
-
     @IBAction func scanAction(_ sender: AnyObject) {
       // Retrieve the QRCode content
       // By using the delegate pattern
+        
+      //The following code is for generating a URL
+
+        
+
       readerVC.delegate = self
 
       // Or by using the closure pattern
       readerVC.completionBlock = { (result: QRCodeReaderResult?) in
-        print(result)
+        let previewController = QLPreviewController()
+        previewController.dataSource = self
+        self.readerVC.dismiss(animated: true) {
+            self.present(previewController, animated: true)
+        }
       }
 
       // Presents the readerVC as modal form sheet
@@ -44,7 +54,23 @@ class FindObjectsViewController: UIViewController, QRCodeReaderViewControllerDel
      
       present(readerVC, animated: true, completion: nil)
     }
+    
+//Instance of QLPreviewController ------------- added by Sudharsan Gopalakrishnan 3/25-26/21
 
+    
+    func numberOfPreviewItems(in controller: QLPreviewController) -> Int {
+        return 1// 1 pdf/photo file so far
+    }
+    
+    func previewController(_ controller: QLPreviewController, previewItemAt index: Int) -> QLPreviewItem {
+        
+        guard let url = Bundle.main.url(forResource: "CAD_Image", withExtension: "png") else {
+            fatalError("Could not load CAD_Image.png")
+        }
+
+        return url as QLPreviewItem
+    }
+//-------------------------------
     func reader(_ reader: QRCodeReaderViewController, didScanResult result: QRCodeReaderResult) {
       reader.stopScanning()
 
