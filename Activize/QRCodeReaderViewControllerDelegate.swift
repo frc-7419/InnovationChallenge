@@ -53,11 +53,12 @@ class FindObjectsViewController: UIViewController, QRCodeReaderViewControllerDel
      
       present(readerVC, animated: true, completion: nil)
         
-        let urlPath = Bundle.main.url(forResource: "input", withExtension: "png")
-        
         let previewController = QLPreviewController()
         previewController.dataSource = self
-        present(previewController, animated: true)
+        self.readerVC.dismiss(animated: true) {
+            self.present(previewController, animated: true)
+        }
+        
         
     }
     
@@ -66,8 +67,8 @@ class FindObjectsViewController: UIViewController, QRCodeReaderViewControllerDel
     }
     
     func previewController(_ controller: QLPreviewController, previewItemAt index: Int) -> QLPreviewItem {
-        guard let url = Bundle.main.url(forResource: String(index), withExtension: "png") else {
-            fatalError("Could not load \(index).png")
+        guard let url = Bundle.main.url(forResource: "CAD_Image", withExtension: "png") else {
+            fatalError("Could not load \"CAD_Image.png")
         }
         
         return url as QLPreviewItem
