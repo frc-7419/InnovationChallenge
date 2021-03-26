@@ -9,6 +9,10 @@ import Foundation
 import AVFoundation
 import QRCodeReader
 import UIKit
+import QuickLook
+
+protocol QLPreviewControllerDataSource{}
+
 
 
 class FindObjectsViewController: UIViewController, QRCodeReaderViewControllerDelegate {
@@ -44,7 +48,26 @@ class FindObjectsViewController: UIViewController, QRCodeReaderViewControllerDel
      
       present(readerVC, animated: true, completion: nil)
     }
+    
+//Instance of QLPreviewController ------------- added by Sudharsan Gopalakrishnan 3/25-26/21
+    let previewController = QLPreviewController()
+    previewController.dataSource = self
+    previewController.currentPreviewItemIndex = indexPath.row
+    present(previewController, animated: true)
+    
+    func numberOfPreviewItems(in controller: QLPreviewController) -> Int {
+        return 3
+    }
+    
+    func previewController(_ controller: QLPreviewController, previewItemAt index: Int) -> QLPreviewItem {
+        
+        guard let url = Bundle.main.url(forResource: String(index), withExtension: "pdf") else {
+            fatalError("Could not load \(index).pdf")
+        }
 
+        return url as QLPreviewItem
+    }
+//-------------------------------
     func reader(_ reader: QRCodeReaderViewController, didScanResult result: QRCodeReaderResult) {
       reader.stopScanning()
 
