@@ -45,21 +45,17 @@ class FindObjectsViewController: UIViewController, QRCodeReaderViewControllerDel
 
       // Or by using the closure pattern
       readerVC.completionBlock = { (result: QRCodeReaderResult?) in
-        print(result)
-      }
-
-      // Presents the readerVC as modal form sheet
-      readerVC.modalPresentationStyle = .formSheet
-     
-      present(readerVC, animated: true, completion: nil)
-        
         let previewController = QLPreviewController()
         previewController.dataSource = self
         self.readerVC.dismiss(animated: true) {
             self.present(previewController, animated: true)
         }
+      }
+
+      // Presents the readerVC as modal form sheet
+      readerVC.modalPresentationStyle = .formSheet
         
-        
+      present(readerVC, animated: true, completion: nil)
     }
     
     func numberOfPreviewItems(in controller: QLPreviewController) -> Int {
@@ -68,7 +64,7 @@ class FindObjectsViewController: UIViewController, QRCodeReaderViewControllerDel
     
     func previewController(_ controller: QLPreviewController, previewItemAt index: Int) -> QLPreviewItem {
         guard let url = Bundle.main.url(forResource: "CAD_Image", withExtension: "png") else {
-            fatalError("Could not load \"CAD_Image.png")
+            fatalError("Could not load CAD_Image.png")
         }
         
         return url as QLPreviewItem
