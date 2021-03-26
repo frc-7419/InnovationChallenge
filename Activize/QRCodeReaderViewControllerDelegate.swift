@@ -63,8 +63,8 @@ class FindObjectsViewController: UIViewController, QRCodeReaderViewControllerDel
     
     func previewController(_ controller: QLPreviewController, previewItemAt index: Int) -> QLPreviewItem {
         
-        guard let url = Bundle.main.url(forResource: String(index), withExtension: "pdf") else {
-            fatalError("Could not load \(index).pdf")
+        guard let url = Bundle.main.url(forResource: String(index), withExtension: "png") else {
+            fatalError("Could not load \(index).png")
         }
 
         return url as QLPreviewItem
