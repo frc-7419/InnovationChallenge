@@ -11,11 +11,9 @@ import QRCodeReader
 import UIKit
 import QuickLook
 
-protocol QLPreviewControllerDataSource{}
 
 
-
-class FindObjectsViewController: UIViewController, QRCodeReaderViewControllerDelegate {
+class FindObjectsViewController: UIViewController, QRCodeReaderViewControllerDelegate, QLPreviewControllerDataSource {
     
     lazy var readerVC: QRCodeReaderViewController = {
         let builder = QRCodeReaderViewControllerBuilder {
@@ -32,15 +30,22 @@ class FindObjectsViewController: UIViewController, QRCodeReaderViewControllerDel
         return QRCodeReaderViewController(builder: builder)
     }()
 
-
     @IBAction func scanAction(_ sender: AnyObject) {
       // Retrieve the QRCode content
       // By using the delegate pattern
+      let previewController = QLPreviewController()
+      previewController.dataSource = self
+      present(previewController, animated: true)
+      let stringPath = Bundle.main.path(forResource: "input", ofType: "txt")
+      let urlPath = Bundle.main.url(forResource: "input", withExtension: "txt")
+        
+
       readerVC.delegate = self
 
       // Or by using the closure pattern
       readerVC.completionBlock = { (result: QRCodeReaderResult?) in
         print(result)
+        
       }
 
       // Presents the readerVC as modal form sheet
@@ -50,13 +55,10 @@ class FindObjectsViewController: UIViewController, QRCodeReaderViewControllerDel
     }
     
 //Instance of QLPreviewController ------------- added by Sudharsan Gopalakrishnan 3/25-26/21
-    let previewController = QLPreviewController()
-    previewController.dataSource = self
-    previewController.currentPreviewItemIndex = indexPath.row
-    present(previewController, animated: true)
+
     
     func numberOfPreviewItems(in controller: QLPreviewController) -> Int {
-        return 3
+        return 1// 1 pdf/photo file so far
     }
     
     func previewController(_ controller: QLPreviewController, previewItemAt index: Int) -> QLPreviewItem {
