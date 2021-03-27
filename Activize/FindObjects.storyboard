@@ -12,7 +12,7 @@
         <!--Find-->
         <scene sceneID="Z08-tg-KnN">
             <objects>
-                <viewController id="L6Z-wH-CaV" sceneMemberID="viewController">
+                <viewController id="L6Z-wH-CaV" customClass="FindObjectsViewController" customModule="Activize" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="zjL-c7-F6m">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -37,6 +37,9 @@
                                         <state key="normal" title="Scan">
                                             <color key="titleColor" systemColor="labelColor"/>
                                         </state>
+                                        <connections>
+                                            <action selector="scanAction:" destination="L6Z-wH-CaV" eventType="touchUpInside" id="3aF-wX-042"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" systemColor="systemGray2Color"/>
@@ -109,7 +112,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="oha-za-eIs" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="213" y="122"/>
+            <point key="canvasLocation" x="211.59420289855075" y="121.875"/>
         </scene>
     </scenes>
     <resources>
