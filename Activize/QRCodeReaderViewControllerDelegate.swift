@@ -67,8 +67,8 @@ class FindObjectsViewController: UIViewController, QRCodeReaderViewControllerDel
     }
     
     func previewController(_ controller: QLPreviewController, previewItemAt index: Int) -> QLPreviewItem {
-        guard let url = Bundle.main.url(forResource: "CAD_Image", withExtension: "png") else {
-            fatalError("Could not load CAD_Image.png")
+        guard let url = Bundle.main.url(forResource: "PizzaCutter", withExtension: "png") else {
+            fatalError("Could not load PizzaCutter.png")
         }
         
         return url as QLPreviewItem
