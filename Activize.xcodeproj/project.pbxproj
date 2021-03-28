@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		9E51142125EDD546001234FC /* TabBarController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E51142025EDD546001234FC /* TabBarController.storyboard */; };
 		F62BD7DE260DAA5A0099918B /* CAD_Image.png in Resources */ = {isa = PBXBuildFile; fileRef = F62BD7DD260DAA5A0099918B /* CAD_Image.png */; };
+		F65B6D5C261066DE00B4A95F /* PizzaCutter.png in Resources */ = {isa = PBXBuildFile; fileRef = F65B6D5B261066DE00B4A95F /* PizzaCutter.png */; };
 		F66F0A9125E88B1A00295472 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F66F0A9025E88B1A00295472 /* AppDelegate.swift */; };
 		F66F0A9325E88B1A00295472 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F66F0A9225E88B1A00295472 /* SceneDelegate.swift */; };
 		F66F0A9525E88B1A00295472 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F66F0A9425E88B1A00295472 /* ViewController.swift */; };
@@ -28,6 +29,7 @@
 /* Begin PBXFileReference section */
 		9E51142025EDD546001234FC /* TabBarController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TabBarController.storyboard; sourceTree = "<group>"; };
 		F62BD7DD260DAA5A0099918B /* CAD_Image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CAD_Image.png; sourceTree = "<group>"; };
+		F65B6D5B261066DE00B4A95F /* PizzaCutter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PizzaCutter.png; sourceTree = "<group>"; };
 		F66F0A8D25E88B1A00295472 /* Activize.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Activize.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F66F0A9025E88B1A00295472 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F66F0A9225E88B1A00295472 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -92,6 +94,7 @@
 				F66F0A9E25E88B1C00295472 /* Info.plist */,
 				F6F51267260ADCDB00740BD5 /* QRCodeReaderViewControllerDelegate.swift */,
 				F62BD7DD260DAA5A0099918B /* CAD_Image.png */,
+				F65B6D5B261066DE00B4A95F /* PizzaCutter.png */,
 			);
 			path = Activize;
 			sourceTree = "<group>";
@@ -162,6 +165,7 @@
 				F66F0ACD25E8987C00295472 /* HomePage.storyboard in Resources */,
 				F62BD7DE260DAA5A0099918B /* CAD_Image.png in Resources */,
 				F66F0A9D25E88B1C00295472 /* LaunchScreen.storyboard in Resources */,
+				F65B6D5C261066DE00B4A95F /* PizzaCutter.png in Resources */,
 				F66F0AC725E8945B00295472 /* ICProfileStoryBrd.storyboard in Resources */,
 				9E51142125EDD546001234FC /* TabBarController.storyboard in Resources */,
 				F66F0ABD25E8929200295472 /* LoginPage.storyboard in Resources */,
@@ -331,13 +335,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = ZS3WBMLJ6Y;
+				DEVELOPMENT_TEAM = 752MG2K5H2;
 				INFOPLIST_FILE = Activize/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = org.quarrylane.frc.Activize15;
+				PRODUCT_BUNDLE_IDENTIFIER = org.quarrylane.frc.Activize24;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -350,13 +354,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = K2UFJQ9J3U;
+				DEVELOPMENT_TEAM = 752MG2K5H2;
 				INFOPLIST_FILE = Activize/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = org.quarrylane.frc.Activize10;
+				PRODUCT_BUNDLE_IDENTIFIER = org.quarrylane.frc.Activize24;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
