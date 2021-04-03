@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		9E51142125EDD546001234FC /* TabBarController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E51142025EDD546001234FC /* TabBarController.storyboard */; };
+		F61042162617E423003A7D86 /* StepTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = F61042152617E423003A7D86 /* StepTracker.swift */; };
 		F62BD7DE260DAA5A0099918B /* CAD_Image.png in Resources */ = {isa = PBXBuildFile; fileRef = F62BD7DD260DAA5A0099918B /* CAD_Image.png */; };
 		F65B6D5C261066DE00B4A95F /* PizzaCutter.png in Resources */ = {isa = PBXBuildFile; fileRef = F65B6D5B261066DE00B4A95F /* PizzaCutter.png */; };
 		F66F0A9125E88B1A00295472 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F66F0A9025E88B1A00295472 /* AppDelegate.swift */; };
@@ -28,6 +29,7 @@
 
 /* Begin PBXFileReference section */
 		9E51142025EDD546001234FC /* TabBarController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TabBarController.storyboard; sourceTree = "<group>"; };
+		F61042152617E423003A7D86 /* StepTracker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepTracker.swift; sourceTree = "<group>"; };
 		F62BD7DD260DAA5A0099918B /* CAD_Image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CAD_Image.png; sourceTree = "<group>"; };
 		F65B6D5B261066DE00B4A95F /* PizzaCutter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PizzaCutter.png; sourceTree = "<group>"; };
 		F66F0A8D25E88B1A00295472 /* Activize.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Activize.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -93,6 +95,7 @@
 				F66F0A9B25E88B1C00295472 /* LaunchScreen.storyboard */,
 				F66F0A9E25E88B1C00295472 /* Info.plist */,
 				F6F51267260ADCDB00740BD5 /* QRCodeReaderViewControllerDelegate.swift */,
+				F61042152617E423003A7D86 /* StepTracker.swift */,
 				F62BD7DD260DAA5A0099918B /* CAD_Image.png */,
 				F65B6D5B261066DE00B4A95F /* PizzaCutter.png */,
 			);
@@ -186,6 +189,7 @@
 			files = (
 				F66F0A9525E88B1A00295472 /* ViewController.swift in Sources */,
 				F66F0A9125E88B1A00295472 /* AppDelegate.swift in Sources */,
+				F61042162617E423003A7D86 /* StepTracker.swift in Sources */,
 				F6F51268260ADCDB00740BD5 /* QRCodeReaderViewControllerDelegate.swift in Sources */,
 				F66F0A9325E88B1A00295472 /* SceneDelegate.swift in Sources */,
 			);
