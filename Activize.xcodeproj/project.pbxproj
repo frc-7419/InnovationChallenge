@@ -12,7 +12,6 @@
 		F65B6D5C261066DE00B4A95F /* PizzaCutter.png in Resources */ = {isa = PBXBuildFile; fileRef = F65B6D5B261066DE00B4A95F /* PizzaCutter.png */; };
 		F66F0A9125E88B1A00295472 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F66F0A9025E88B1A00295472 /* AppDelegate.swift */; };
 		F66F0A9325E88B1A00295472 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F66F0A9225E88B1A00295472 /* SceneDelegate.swift */; };
-		F66F0A9525E88B1A00295472 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F66F0A9425E88B1A00295472 /* ViewController.swift */; };
 		F66F0A9825E88B1A00295472 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F66F0A9625E88B1A00295472 /* Main.storyboard */; };
 		F66F0A9A25E88B1C00295472 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F66F0A9925E88B1C00295472 /* Assets.xcassets */; };
 		F66F0A9D25E88B1C00295472 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F66F0A9B25E88B1C00295472 /* LaunchScreen.storyboard */; };
@@ -33,7 +32,6 @@
 		F66F0A8D25E88B1A00295472 /* Activize.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Activize.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F66F0A9025E88B1A00295472 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F66F0A9225E88B1A00295472 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F66F0A9425E88B1A00295472 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F66F0A9725E88B1A00295472 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F66F0A9925E88B1C00295472 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F66F0A9C25E88B1C00295472 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -87,7 +85,6 @@
 				F66F0AA725E88F5400295472 /* Inventory.storyboard */,
 				F66F0A9025E88B1A00295472 /* AppDelegate.swift */,
 				F66F0A9225E88B1A00295472 /* SceneDelegate.swift */,
-				F66F0A9425E88B1A00295472 /* ViewController.swift */,
 				F66F0A9625E88B1A00295472 /* Main.storyboard */,
 				F66F0A9925E88B1C00295472 /* Assets.xcassets */,
 				F66F0A9B25E88B1C00295472 /* LaunchScreen.storyboard */,
@@ -184,7 +181,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F66F0A9525E88B1A00295472 /* ViewController.swift in Sources */,
 				F66F0A9125E88B1A00295472 /* AppDelegate.swift in Sources */,
 				F6F51268260ADCDB00740BD5 /* QRCodeReaderViewControllerDelegate.swift in Sources */,
 				F66F0A9325E88B1A00295472 /* SceneDelegate.swift in Sources */,
@@ -335,13 +331,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 752MG2K5H2;
+				DEVELOPMENT_TEAM = ZS3WBMLJ6Y;
 				INFOPLIST_FILE = Activize/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = org.quarrylane.frc.Activize24;
+				PRODUCT_BUNDLE_IDENTIFIER = org.quarrylane.frc.Activize25;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -354,13 +350,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 752MG2K5H2;
+				DEVELOPMENT_TEAM = ZS3WBMLJ6Y;
 				INFOPLIST_FILE = Activize/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = org.quarrylane.frc.Activize24;
+				PRODUCT_BUNDLE_IDENTIFIER = org.quarrylane.frc.Activize25;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
