@@ -17,12 +17,21 @@ class StepTracker {
     // display the step count data on the home page
     
     // ? unwraps the optional, e.g. if this is not nill then do that
+//    public func getStepCount(completion: @escaping (Int?) -> Void) -> Void {
+//        // block (completion) is an anonymous function
+//        if CMPedometer.isStepCountingAvailable() {
+//            let calendar = Calendar.current
+//            pedometer.queryPedometerData(from: calendar.startOfDay(for: Date()), to: Date()) { (data, error) in
+//                // runs some point down the line (asynchronous function)
+//                completion(data?.numberOfSteps.intValue)
+//            }
+//        }
+//    }
+    
     public func getStepCount(completion: @escaping (Int?) -> Void) -> Void {
         // block (completion) is an anonymous function
         if CMPedometer.isStepCountingAvailable() {
-            let calendar = Calendar.current
-            pedometer.queryPedometerData(from: calendar.startOfDay(for: Date()), to: Date()) { (data, error) in
-                // runs some point down the line (asynchronous function)
+            pedometer.startUpdates(from: Date()) { (data, error) in
                 completion(data?.numberOfSteps.intValue)
             }
         }
