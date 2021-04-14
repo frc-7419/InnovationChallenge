@@ -73,6 +73,10 @@ class FindObjectsViewController: UIViewController, QRCodeReaderViewControllerDel
     func previewController(_ controller: QLPreviewController, previewItemAt index: Int) -> QLPreviewItem {
         
         guard let url = Bundle.main.url(forResource: qrVariable, withExtension: "png") else {
+            var fileNameArray:[String] = ["PizzaCutter", "CAD_Image"]
+//            if fileNameArray.contains(qrVariable) {
+//                qrVariable.se
+//            }
             //make array that contains the file names
             //use .contains() method to check for specific file
             //if array contains fileName, set qrVariable equal to fileName
