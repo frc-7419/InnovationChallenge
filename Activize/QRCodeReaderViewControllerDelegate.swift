@@ -13,6 +13,9 @@ import QuickLook
 
 
 class FindObjectsViewController: UIViewController, QRCodeReaderViewControllerDelegate, QLPreviewControllerDataSource {
+    
+    var qrVariable: String?
+        
 //    func numberOfPreviewItems(in controller: QLPreviewController) -> Int {
 //        <#code#>
 //    }
@@ -51,6 +54,7 @@ class FindObjectsViewController: UIViewController, QRCodeReaderViewControllerDel
       readerVC.completionBlock = { (result: QRCodeReaderResult?) in
         let previewController = QLPreviewController()
         previewController.dataSource = self
+        self.qrVariable = result?.value
         self.readerVC.dismiss(animated: true) {
             self.present(previewController, animated: true)
         }
@@ -68,8 +72,11 @@ class FindObjectsViewController: UIViewController, QRCodeReaderViewControllerDel
     
     func previewController(_ controller: QLPreviewController, previewItemAt index: Int) -> QLPreviewItem {
         
-        guard let url = Bundle.main.url(forResource: "PizzaCutter", withExtension: "png") else {
-            fatalError("Could not load PizzaCutter.png")
+        guard let url = Bundle.main.url(forResource: qrVariable, withExtension: "png") else {
+            //make array that contains the file names
+            //use .contains() method to check for specific file
+            //if array contains fileName, set qrVariable equal to fileName
+            //else do nothing
         }
         
         return url as QLPreviewItem
